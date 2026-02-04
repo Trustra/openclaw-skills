@@ -1,5 +1,5 @@
 ---
-name: buy-products
+name: scout-commerce
 version: 1.1.0
 description: Search for products on Amazon/shopify and buy with USDC on Solana. Swap tokens using Jupiter.
 homepage: https://scout.trustra.xyz
