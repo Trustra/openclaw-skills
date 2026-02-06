@@ -1,6 +1,6 @@
-# Scout Skills for Openclaw
+# Trustra Skills for Openclaw
 
-Official skills library for [Scout](https://scout.trustra.xyz) — AI-powered commerce on Solana. Compatible with [Openclaw](https://openclaw.ai/) agents.
+Official skills library by [Trustra](https://trustra.xyz) — AI-powered commerce and escrow on Solana. Compatible with [Openclaw](https://openclaw.ai/) agents.
 
 ## Structure
 
@@ -19,6 +19,23 @@ openclaw-skills/
 │       ├── balance.py
 │       ├── buy.py
 │       └── order_status.py
+├── trustra-escrow/
+│   ├── SKILL.md
+│   ├── .gitignore
+│   └── scripts/
+│       ├── requirements.txt
+│       ├── config.py
+│       ├── register.py
+│       ├── balance.py
+│       ├── escrow_create.py
+│       ├── escrow_pay.py
+│       ├── escrow_list.py
+│       ├── escrow_deliver.py
+│       ├── escrow_confirm.py
+│       ├── escrow_dispute.py
+│       ├── escrow_cancel.py
+│       ├── escrow_withdraw.py
+│       └── export_key.py
 ```
 
 ## Install Instructions
@@ -34,6 +51,7 @@ https://github.com/Trustra/openclaw-skills
 | Skill | Description |
 |-------|-------------|
 | [scout-commerce](./scout-commerce) | Buy products from Amazon & Shopify with USDC on Solana. US shipping only. |
+| [trustra-escrow](./trustra-escrow) | Trustless USDC escrow for agent-to-agent transactions on Solana. |
 
 ## Contributing
 
